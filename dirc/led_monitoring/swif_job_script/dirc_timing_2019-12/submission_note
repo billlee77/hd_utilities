@@ -1,0 +1,36 @@
+* Studying the pixel resolution Apr 30, 2018
+	python swif_gluex_analysis.py timing_flow 72403 72427
+
+
+* Running LED skim files
+	python swif_gluex_analysis_LED_skim.py skim_flow 72403 72427
+	# 2019 skim 
+	python swif_gluex_analysis_LED_skim.py skim_flow 72645 73006
+
+	# Test Test 
+	python swif_gluex_analysis_LED_skim.py skim_flow 72863 72863
+	
+
+
+* Running LED  files
+	python swif_gluex_analysis.py led_flow 71264 71274
+
+* No time walk correction
+	python swif_gluex_analysis_no_time_walk.py led_flow_no_timewalk 71264 71274
+	python swif_gluex_analysis_time_walk.py led_flow_timewalk 71264 71274
+
+	python swif_gluex_analysis_no_time_walk.py led_flow_no_timewalk 72492 72507
+	python swif_gluex_analysis_time_walk.py led_flow_timewalk 72492 72507
+
+
+* Skim job submission
+	python swif_gluex_analysis_LED_skim.py skim_flow 72645 72958
+	python swif_gluex_analysis_LED_skim.py skim_flow 72959 73102
+	python swif_gluex_analysis_LED_skim.py skim_flow 73103 73266
+
+
+
+* December 2019 run submission
+	python swif_gluex_analysis_LED_skim.py skim_flow 71350 72414
+
+???
